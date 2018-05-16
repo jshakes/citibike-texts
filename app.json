@@ -1,5 +1,38 @@
 {
   "name": "Citibike Texts",
   "description": "Receive a text with the number of bikes in your nearest New York Citibike docks.",
-  "repository": "https://github.com/jshakes/citibike-texts"
+  "repository": "https://github.com/jshakes/citibike-texts",
+  "addons": [
+    "scheduler" 
+  ],
+  "env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Twilio account SID",
+      "value": ""
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Twilio auth token",
+      "value": ""
+    },
+    "RECIPIENT_PHONE": {
+      "description": "The number to receive SMS messages",
+      "value": ""
+    },
+    "SENDER_PHONE": {
+      "description": "The Twilio phone number from which the SMS messages are sent",
+      "value": ""
+    },
+    "LATITUDE": {
+      "description": "Origin latitude",
+      "value": "40.748441"
+    },
+    "LONGITUDE": {
+      "description": "Origin longitude",
+      "value": "-73.985664"
+    },
+    "NUM_STATIONS": {
+      "description": "Number of stations from which to report bike availability",
+      "value": "3"
+    }
+  }
 }
