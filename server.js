@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-import cron from 'node-cron';
 import request from 'request-promise';
 import twilio from 'twilio';
 
