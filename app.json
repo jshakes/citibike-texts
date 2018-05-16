@@ -16,11 +16,11 @@
     },
     "RECIPIENT_PHONE": {
       "description": "The number to receive SMS messages",
-      "value": ""
+      "value": "+11235551111"
     },
     "SENDER_PHONE": {
       "description": "The Twilio phone number from which the SMS messages are sent",
-      "value": ""
+      "value": "+11235552222"
     },
     "LATITUDE": {
       "description": "Origin latitude",
