@@ -8,9 +8,9 @@ A roll-your-own application for sending scheduled SMS messages with the number o
 
 In order for this to be useful, you'll want to receive an SMS at set times, e.g. before you leave home/work. The easiest and free-est way to do this is using Heroku.
 
-Using the above button, deploy the application and set your config vars. After deployment, go to Manage App, then, from the Resources tab, set the Scheduler to run `npm run notify` at the desired time
+Using the above button, deploy the application and set your config vars.
 
-![Heroku Scheduler](img/scheduler.png)
+After deployment, go to Manage App, then from the Resources tab, Heroku Scheduler. Set the Scheduler to run `npm run notify` at the desired time.
 
 ## Running locally
 
@@ -22,4 +22,4 @@ Copy `.env.example` to `.env` (`$ cp .env.example .env`) and enter your credenti
 - `LATITUDE` and `LONGITUDE` - The coordinates from which to seach for bikes. Get your location using https://www.latlong.net/ or similar
 - `NUM_STATIONS` - How many nearest stations from whic to report availability. These will be the n nearest stations as the crow flies from the provided latitude and longitude.
 
-To run the script: `$ npm start`. This will send a one-off text to the provided number.
+To run the script: `$ npm run notify`. This will send a one-off text to the provided number.
