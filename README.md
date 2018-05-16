@@ -2,7 +2,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-A roll-your-own application for sending scheduled SMS messages with the number of bikes in your nearest New York Citibike docks.
+A roll-your-own application for sending scheduled SMS messages with the number of bikes in your nearest New York Citibike docks. Requires a [Twilio account](https://www.twilio.com/try-twilio) (a free one works fine).
 
 ## Scheduling from Heroku
 
