@@ -4,7 +4,7 @@
   "description": "Receive a text with the number of bikes in your nearest New York Citibike docks.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "notify": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

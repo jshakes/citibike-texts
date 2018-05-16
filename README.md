@@ -8,7 +8,7 @@ A roll-your-own application for sending scheduled SMS messages with the number o
 
 In order for this to be useful, you'll want to receive an SMS at set times, e.g. before you leave home/work. The easiest and free-est way to do this is using Heroku.
 
-Using the above button, deploy the application and set your config vars. Then, from the Resources tab, set the Scheduler to run `npm start` at the desired time
+Using the above button, deploy the application and set your config vars. After deployment, go to Manage App, then, from the Resources tab, set the Scheduler to run `npm run notify` at the desired time
 
 ![Heroku Scheduler](img/scheduler.png)
 
