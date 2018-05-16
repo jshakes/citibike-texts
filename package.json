@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "notify": "node index.js",
+    "start": "echo \"To execute the script, run npm run notify\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
