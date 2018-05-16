@@ -20,4 +20,8 @@ In order for this to be useful, you want to receive an SMS every day before you 
 
 Once you have set up the app, set up your config vars either using the Heroku CLI (e.g. `heroku config:set TWILIO_ACCOUNT_SID=MY_TWILIO_ACCOUNT_SID ...`) or from the Settings tab.
 
-From Resources, install the Heroku Scheduler add on and set it to run at the desired time.
+![Vars](/img/vars.png)
+
+From Resources, install the Heroku Scheduler add on and set it to run `npm start` at the desired time.
+
+![Vars](/img/scheduler.png)
