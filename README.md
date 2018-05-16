@@ -14,5 +14,10 @@ To run the script: `$ npm start`.
 
 ### Scheduling from Heroku
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 In order for this to be useful, you want to receive an SMS every day before you leave home/work. The easiest and free-est way to do this is using Heroku.
 
+Once you have set up the app, set up your config vars either using the Heroku CLI (e.g. `heroku config:set TWILIO_ACCOUNT_SID=MY_TWILIO_ACCOUNT_SID ...`) or from the Settings tab.
+
+From Resources, install the Heroku Scheduler add on and set it to run at the desired time.
