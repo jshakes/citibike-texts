@@ -1,13 +1,17 @@
 {
   "name": "citibike-texts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Receive a text with the number of bikes in your nearest New York Citibike docks.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jshakes/citibike-texts"
+  },
+  "author": "James Shakespeare",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^5.0.1",

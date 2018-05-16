@@ -74,10 +74,10 @@ const sendText = body => {
 };
 
 const getDistance = (lat1, lon1, lat2, lon2) => {
-  const radlat1 = Math.PI * lat1 / 180
-  const radlat2 = Math.PI * lat2 / 180
-  const theta = lon1-lon2
-  const radtheta = Math.PI * theta / 180
+  const radlat1 = Math.PI * lat1 / 180;
+  const radlat2 = Math.PI * lat2 / 180;
+  const theta = lon1 - lon2;
+  const radtheta = Math.PI * theta / 180;
   const dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
   return Math.acos(dist)
 };

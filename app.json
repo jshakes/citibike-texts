@@ -1,0 +1,5 @@
+{
+  "name": "Citibike Texts",
+  "description": "Receive a text with the number of bikes in your nearest New York Citibike docks.",
+  "repository": "https://github.com/jshakes/citibike-texts"
+}
