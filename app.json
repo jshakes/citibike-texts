@@ -5,6 +5,11 @@
   "addons": [
     "scheduler" 
   ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
   "env": {
     "TWILIO_ACCOUNT_SID": {
       "description": "Twilio account SID",
