@@ -5,6 +5,7 @@
   "addons": [
     "scheduler" 
   ],
+  "formation": {},
   "buildpacks": [
     {
       "url": "heroku/nodejs"
